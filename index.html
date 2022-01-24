@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de vehiculos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <main class="row">
+            <section class="col">
+                <h1 class="title">Buscador de autos</h1>
+                <div class="card">
+                    <div class="group">
+                        <label for="marca">Marca</label>
+                        <select name="marca" id="marca">
+                            <option value="">Seleccione</option>
+                            <option value="Audi">Audi</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Mercedes Benz">Mercedes Benz</option>
+                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Dodge">Dodge</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="year">Año</label>
+                        <select name="year" id="year">
+                            <option value="">Seleccione</option>
+                           
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="minimo">Precio Min</label>
+                        <select name="minimo" id="minimo">
+                            <option value="">Seleccione</option>
+                            <option value="20000">20000</option>
+                            <option value="25000">25000</option>
+                            <option value="30000">30000</option>
+                            <option value="35000">35000</option>
+                            <option value="40000">40000</option>
+                            <option value="45000">45000</option>
+                            <option value="50000">50000</option>
+                            <option value="55000">55000</option>
+                            <option value="60000">60000</option>
+                            <option value="65000">65000</option>
+                            <option value="70000">70000</option>
+                            <option value="75000">75000</option>
+                            <option value="80000">80000</option>
+                            <option value="85000">85000</option>
+                            <option value="90000">90000</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="maximo">Precio Max</label>
+                        <select name="maximo" id="maximo">
+                            <option value="">Seleccione</option>
+                            <option value="20000">20000</option>
+                            <option value="25000">25000</option>
+                            <option value="30000">30000</option>
+                            <option value="35000">35000</option>
+                            <option value="40000">40000</option>
+                            <option value="45000">45000</option>
+                            <option value="50000">50000</option>
+                            <option value="55000">55000</option>
+                            <option value="60000">60000</option>
+                            <option value="65000">65000</option>
+                            <option value="70000">70000</option>
+                            <option value="75000">75000</option>
+                            <option value="80000">80000</option>
+                            <option value="85000">85000</option>
+                            <option value="90000">90000</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="puertas">Puertas</label>
+                        <select name="puertas" id="puertas">
+                            <option value="">Seleccione</option>
+                            <option value="2">2</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="transmision">Transmision</label>
+                        <select name="transmision" id="transmision">
+                            <option value="">Seleccione</option>
+                            <option value="automatico">Automatico</option>
+                            <option value="manual">Manual</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="color">Color</label>
+                        <select name="color" id="color">
+                            <option value="">Seleccione</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Rojo">Rojo</option>
+                            <option value="Negro">Negro</option>
+                        </select>
+                    </div>
+                </div>
+                <h1 class="title">Resultado</h1>
+                <div class="resultado" id="resultado">
+                </div>
+                
+            </section>
+        </main>
+    </div>
+<script src="./js/db.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
